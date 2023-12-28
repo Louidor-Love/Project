@@ -33,6 +33,7 @@ export const registerRequest = async (email: string, name: string, password: str
 };
 
 export const loginRequest = async (email: string, password: string) => {
-    const response = await axi.post("/users/login/", {email, password})
-    return response;
+        const response = await axi.post("/token/", { email, password });
+        return response;
+  
 };

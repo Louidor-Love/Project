@@ -4,7 +4,7 @@ const Header = () => {
     return (
         
             <nav >
-                <p>Hola</p>
+                <p></p>
                   
             </nav >
           

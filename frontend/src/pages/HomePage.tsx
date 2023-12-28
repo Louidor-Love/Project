@@ -4,7 +4,7 @@ const HomePage = () => {
     return (
         <div>
             
-          <h1>Fuck bitch</h1> 
+          <h1>Welcome to my HomePage</h1> 
           
         </div>
     )
